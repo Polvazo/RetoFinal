@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ventureapp.retofinal.Login.login"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/cabecera"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:text="@string/ingresardatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="@string/username"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:id="@+id/et_username"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:id="@+id/et_password"
+        android:gravity="center"/>
+
+    <Button
+        android:text="@string/login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_ingresar"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@color/Button"
+        android:textColor="@color/blanco"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetoFinal</string>
+    <string name="login">Sign in</string>
+    <string name="ingresardatos">Por Favor Ingrese Los Datos Correctamente</string>
+    <string name="username">Ingrese Usuario</string>
+    <string name="password">Ingrese Contraseña</string>
+
+</resources>
